@@ -42,6 +42,13 @@ we're doing this once so we can set our main local to track the remote main bran
 git branch --set-upstream-to=origin/main main
 ```
 
+**Pull**
+We're pulling changes from the remote repository to our local copy.
+
+```sh
+git pull
+```
+
 ## Git Ignore
 
 It's a file that tells git to ignore some files form the version control system.
