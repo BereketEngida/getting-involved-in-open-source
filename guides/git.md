@@ -49,6 +49,17 @@ We're pulling changes from the remote repository to our local copy.
 git pull
 ```
 
+**Merge/Rebase**
+
+Merge: Combines changes from one branch into another by creating a new merge commit.
+
+Rebase: It rearranges the commit history of the branch you're currently on to make it look like it was started from the most recent commit of another branch.
+
+```sh
+git config pull.rebase false  # merge
+git config pull.rebase true   # rebase
+```
+
 ## Git Ignore
 
 It's a file that tells git to ignore some files form the version control system.
