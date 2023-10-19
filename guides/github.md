@@ -30,6 +30,10 @@ Branches allows you to change a code push within a repository without affecting 
 
 Pull request is a request for a code change.
 
+## Github CLI
+
+It's a cli tool that let's us do actions on github most commonly authenticate to our github account.
+
 ```sh
 gh auth login
 ```
