@@ -29,6 +29,19 @@ we're pushing the changes to remote repository.
 git push
 ```
 
+**Remote**
+We're adding a remote so we can push to that remote codebase so other can collaborate.
+
+```sh
+git remote add origin https://github.com/bekacru/getting-involved-in-open-source
+```
+
+we're doing this once so we can set our main local to track the remote main branch.
+
+```sh
+git branch --set-upstream-to=origin/main main
+```
+
 ## Git Ignore
 
 It's a file that tells git to ignore some files form the version control system.
